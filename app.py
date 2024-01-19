@@ -156,7 +156,7 @@ def contact_us():
 # Main App
 def main():
     st.sidebar.title("DiabSynth Navigator")
-    page = st.sidebar.radio("Navigation", ["Project Description", "Home", "About", "Contact", "Blogs and Reference","Team Members", "Diabetes Prediction", "Contact Us"])
+    page = st.sidebar.radio("Navigation", ["Project Description", "Home", "About", "Contact", "Blogs and Reference", "Diabetes Prediction"])
 # Page routing
     if page == "Project Description":
         	project_description()
