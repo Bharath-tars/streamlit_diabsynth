@@ -170,7 +170,7 @@ def main():
     elif page == "Contact":
     		st.markdown("[Click Here for Contact:](https://diabsynth.netlify.app/homepage/contact)")
     # Include your Contact page content here
-    elif page == "Blogs and Reference":
+    elif page == "Blogs and References":
     		st.markdown("[Click Here for Blogs and Reference:](https://diabsynth.netlify.app/homepage/faq)")
     elif page == "Project Description":
         	project_description()
